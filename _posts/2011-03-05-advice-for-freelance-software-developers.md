@@ -24,13 +24,13 @@ When you first meet with your client, have some questions in mind:
     *   If this answer seems flimsy, you can expect your time budget to will grow (sometimes by a factor of 2). It may be an
         early sign that you need to walk away before the project even starts.
 *   How much is she willing to spend on this project?
-    *   There is a reason you are being hired for this project and not an established web design firm: you are expected to be 
-        cheaper. However, your client's idea of cheap may be vastly different than yours. You should also account for variability in the project time budget.
+    *   There is a reason you are being hired for this project and not an established web design firm: you are 
+        expected to be cheaper. However, your client's idea of cheap may be vastly different than yours. You should also account for variability in the project time budget.
     *   If they feel that you might be getting under-compensated, be upfront about it or seek out alternative forms of
         compensation. For instance, value-added or equity ownership in the project might be a possibility.
 *   If there is already a current solution to this problem, what don't you like about it?
-    *   This is something very easy to overlook. It's easy to say that the previous developer was a some schmuck who didn't
-        know anything about software development or web design. In some cases, that can be very true - there are a lot of terrible coders out there. I have the sleepless nights to prove it. But sometimes, the client had a hand in this, too. Be careful, before you jump to conclusions.
+    *   This is something very easy to overlook. It's easy to say that the previous developer was a some schmuck who 
+        didn't know anything about software development or web design. In some cases, that can be very true - there are a lot of terrible coders out there. I have the sleepless nights to prove it. But sometimes, the client had a hand in this, too. Be careful, before you jump to conclusions.
 
 ### Gauge their Knowledge
 
@@ -44,7 +44,7 @@ As a freelance developer, I never wanted to say I couldn't do something. I wante
 
 ## Make a Plan
 
-Once you have taken inventory of the client's expectations, you should take the time to plan out what you are going to do and how much time it will. In my experience, it's very easy to skip this step. Your client wants to get things done. You would rather start working on items that are actually billable. But this is a big mistake. No, its actually a HUGE mistake. A plan - even better yet a Statement of Work (SOW) - will save you hours of agony later. It's the best way to protect yourself from scope creep and a forseeable bad break up with your client at the end of the project.
+Once you have taken inventory of the client's expectations, you should take the time to plan out what you are going to do and how much time it will. In my experience, it's very easy to skip this step. Your client wants to get things done.You would rather start working on items that are actually billable. But this is a big mistake. No, its actually a HUGE mistake. A plan - even better yet a Statement of Work (SOW) - will save you hours of agony later. It's the best way to protect yourself from scope creep and a forseeable bad break up with your client at the end of the project.
 
 Estimating time is by no means a cut and dry task. My best advice is to use your past experiences and to be liberal with items that are nebulous or require you to learn new technologies. Once you have the total hours put together, tack on additional 20 to 30 % to account for the unexpected changes and risks. This factor might be even larger for projects that carry more uncertainty.
 

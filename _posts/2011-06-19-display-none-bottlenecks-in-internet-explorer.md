@@ -14,7 +14,7 @@ For instance, you might have a grid which displays a table of items. To display 
 
 ```html
 <div id="divEditItem" runat="server" style="display:none">
-	<! -- Your edit controls here --	>
+	<!-- Your edit controls here -->
 </div>
 <div runat="server" id="divGrid" style="display:block">
 	<table>

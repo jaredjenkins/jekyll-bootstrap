@@ -9,7 +9,7 @@ tags : [intro, beginner, jekyll, tutorial]
 This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
 Directly following the intro we'll learn exactly _how_ Jekyll does what it does.
 
-## Overview 
+## Overview
 
 ### What is Jekyll?
 
@@ -20,13 +20,11 @@ dynamic components such as templates, partials, liquid code, markdown, etc. Jeky
 
 This website is created with Jekyll. [Other Jekyll websites](https://github.com/mojombo/jekyll/wiki/Sites).
 
-
-
 ### What does Jekyll Do?
 
 Jekyll is a ruby gem you install on your local system.
 Once there you can call `jekyll --server` on a directory and provided that directory
-is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files, 
+is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files,
 compute categories, tags, permalinks, and construct your pages from layout templates and partials.
 
 Once parsed, Jekyll stores the result in a self-contained static `_site` folder.
@@ -70,7 +68,7 @@ Be aware that core concepts are introduced in rapid succession without code exam
 This information is not intended to specifically teach you how to do anything, rather it
 is intended to give you the _full picture_ relative to what is going on in Jekyll-world.
 
-Learning these core concepts should help you avoid common frustrations and ultimately 
+Learning these core concepts should help you avoid common frustrations and ultimately
 help you better understand the code examples contained throughout Jekyll-Bootstrap.
 
 
