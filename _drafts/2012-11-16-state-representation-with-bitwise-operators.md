@@ -1,11 +1,6 @@
 ---
 layout: post
 title: Representing State with Integers and Bitwise Operators
-tags:
-- Blog
-status: publish
-type: post
-published: true
 ---
 *Update 2012-11-23:* A couple of my software engineering friends brought to my attention that a bitwise operation is not that great for database performance. I added some notes for this below. 
 
