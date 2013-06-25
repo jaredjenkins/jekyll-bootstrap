@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>{{page.title}}</title>
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="viewport" content="width=1024, user-scalable=no">
+    
+    <link rel="stylesheet" href="{{ ASSET_PATH }}deck-js/core/deck.core.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}deck-js/extensions/goto/deck.goto.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}deck-js/extensions/menu/deck.menu.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}deck-js/extensions/navigation/deck.navigation.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}deck-js/extensions/scale/deck.scale.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}deck-js/extensions/status/deck.status.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}deck-js/extensions/hash/deck.hash.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}deck-js/themes/style/swiss.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}deck-js/themes/transition/horizontal-slide.css">
+
+    <link rel="stylesheet" href="{{ ASSET_PATH }}css/jquery-ui.css" />
+    <link rel="stylesheet" href="{{ ASSET_PATH }}deck-js/styles/vs.css" />
+    <link rel="stylesheet" href="{{ ASSET_PATH }}deck-js/styles/visualize.css" />
+    <link rel="stylesheet" href="{{ ASSET_PATH }}deck-js/styles/visualize-light.css" />
+    
+    {% unless page.css == empty %}
+    {% for css_file in page.css %}
+    <link rel="stylesheet" href="{{ ASSET_PATH }}css/{{css_file}}">
+    {% endfor %}
+    {% endunless %}
+    <script src="{{ ASSET_PATH }}deck-js/scripts/modernizr.custom.js"></script>
+    <style>
+        img.thumbnail
+        {
+            float:right;
+            margin-left: 100px;
+            margin-top: 10px;
+            -moz-border-radius: 7px;
+            border-radius: 7px;
+            outline: 0;
+            -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 15px rgba(24, 116, 205, 0.8);
+               -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 15px rgba(24, 116, 205, 0.8);
+                    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 15px rgba(24, 116, 205, 0.8);
+        }
+    </style>
+</head>
+<html>
+    <body class="kts">
+        <article class="deck-container">
+            {{ content }}
+        </article>
+        <footer>
+          <p>
+            &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+            with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+            and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+          </p>
+        </footer>
+        <script src="{{ ASSET_PATH }}scripts/jquery-1.7.min.js"></script>
+        <script src="{{ ASSET_PATH }}scripts/jquery-ui.min.js"></script>
+
+        <!-- Deck Core and extensions -->
+        <script src="{{ ASSET_PATH }}deck-js/core/deck.core.js"></script>
+        <script src="{{ ASSET_PATH }}deck-js/extensions/hash/deck.hash.js"></script>
+        <script src="{{ ASSET_PATH }}deck-js/extensions/menu/deck.menu.js"></script>
+        <script src="{{ ASSET_PATH }}deck-js/extensions/goto/deck.goto.js"></script>
+        <script src="{{ ASSET_PATH }}deck-js/extensions/scale/deck.scale.js"></script>
+        <script src="{{ ASSET_PATH }}/deck-js/extensions/status/deck.status.js"></script>
+        <script src="{{ ASSET_PATH }}/deck-js/extensions/navigation/deck.navigation.js"></script>
+
+        <!-- Specific to this page -->
+        <script src="{{ ASSET_PATH }}/deck-js/scripts/highlight.min.js"></script>
+        <script src="{{ ASSET_PATH }}/deck-js/scripts/jquery.visualize.js"></script>
+        <script src="{{ ASSET_PATH }}/deck-js/scripts/formula.js"></script>
+        <script src="{{ ASSET_PATH }}/deck-js/scripts/ideabar.js"></script>
+        <script src="{{ ASSET_PATH }}/deck-js/scripts/kts.js"></script>
+    </body>
+</html>

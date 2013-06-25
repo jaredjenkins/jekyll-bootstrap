@@ -6,15 +6,8 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
-  image: ''
-  embed: This is the default text
-  seo_follow: 'false'
-  seo_noindex: 'false'
-  _wp_old_slug: state-and-bitwise-operators
 ---
-<em><strong>Update 2012-11-23:</strong></em> A couple of my software engineering friends brought to my attention that a bitwise operation is not that great for database performance. I added some notes for this below. 
+*Update 2012-11-23:* A couple of my software engineering friends brought to my attention that a bitwise operation is not that great for database performance. I added some notes for this below. 
 
 For a lot of people the information in this post may be fairly obvious, especially those who've worked in a lot of C or C++. What I am also saying is by no means novel or ground-breaking, but after a few years working in managed languages and with lots of preexisting code projects, I felt like a lot of people are not taking advantage of bitwise operators.
 

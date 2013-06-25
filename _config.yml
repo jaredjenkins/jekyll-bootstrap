@@ -3,14 +3,13 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-auto: true
 pygments: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
 title : Jared Jenkins
-tagline: "Engineer and Technologist ... Trying to avoid Cynicism"
+tagline: "Engineer and Technologist ... Trying to Avoid Cynicism"
 author :
   name : Jared Jenkins
   email : jay.sqrd@gmail.com
@@ -26,7 +25,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://jaredjenkins.com
+production_url : http://www.jared-jenkins.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -87,10 +86,10 @@ JB :
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
-  #        
+  #
   analytics :
-    provider : google 
-    google : 
+    provider : google
+    google :
         tracking_id : 'UA-123-12'
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
