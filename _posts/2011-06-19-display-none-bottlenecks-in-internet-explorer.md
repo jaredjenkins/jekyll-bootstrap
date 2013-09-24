@@ -6,7 +6,7 @@ While Internet Explorer has certainly improved in recent years, it still can sti
 
 Most often you will just need to alter your CSS rules or HTML layout to get things back to normal. This is typically an iterative process, but something that becomes easier with experience.
 
-##The Problem
+## The Problem
 
 A more subtle issue is that IE has a hard time processing large amounts of elements which are marked as invisible; the page loading will run very slowly or even crash. Usually this has a negligible effect on page load times, but when dealing with a lot of data it becomes **very** noticeable.
 
