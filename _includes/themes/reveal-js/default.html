@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{page.title}}</title>
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="{{ ASSET_PATH }}reveal-js/css/reveal.min.css"/>
+
+    {% unless page.css == empty %}
+    {% for css_file in page.css %}
+    <link rel="stylesheet" href="{{ ASSET_PATH }}css/{{css_file}}">
+    {% endfor %}
+    {% endunless %}
+
+    <style>
+        img.thumbnail
+        {
+            float:right;
+            margin-left: 100px;
+            margin-top: 10px;
+            -moz-border-radius: 7px;
+            border-radius: 7px;
+            outline: 0;
+            -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 15px rgba(24, 116, 205, 0.8);
+               -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 15px rgba(24, 116, 205, 0.8);
+                    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 15px rgba(24, 116, 205, 0.8);
+        }
+    </style>
+</head>
+<html>
+    <body class="kts">
+        {{ content }}
+        <footer>
+          <p>
+            &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+            with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+            and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+          </p>
+        </footer>
+        
+    </body>
+</html>
